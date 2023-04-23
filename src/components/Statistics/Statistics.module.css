@@ -1,0 +1,27 @@
+.statistics {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    padding-top: 30px;
+    max-width: 480px;
+    
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: #cae0fc solid 3px;
+}
+
+.title {
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    color: #5e5c5c;
+}
+
+.statList {
+    display: flex;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+

@@ -1,0 +1,22 @@
+.item {
+    padding: 15px;
+    width: 100%;
+    color: aliceblue;
+    background-color: rgb(166, 197, 187);
+}
+
+.item:not(:last-child){
+    border-right: 2px solid rgb(141, 141, 141);  
+}
+
+.label {
+    font-size: 20px;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.percentage {
+    font-size: 28px;
+    font-weight: 600;
+}

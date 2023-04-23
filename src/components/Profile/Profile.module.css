@@ -1,0 +1,103 @@
+.profile {
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    max-width: 480px;
+     font-size: 20px;
+    font-weight: 600;
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: #cae0fc solid 3px;
+}
+
+.description{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    border: 2px  solid lightgray;
+    border-bottom: 0px  solid lightgray;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    background-color: #fff;
+}
+
+.avatar {
+    background-color: rgb(214, 235, 138);
+    width: 200px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+
+.name {
+    margin-top: 0px;
+    color: rgb(6, 6, 8);
+    font-weight: 700;
+    font-size: 29px;
+}
+
+.tag {
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    color: rgb(177, 177, 174);
+}
+
+.location {
+    font-size: 25px;
+    font-weight: 700;
+    margin: 0px;
+    color: rgb(177, 177, 174);
+}
+
+.stats {
+ display: flex;
+
+    margin: 0;
+    padding: 0;
+
+    border: 2px solid lightgray; 
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
+    align-items: center;
+    background-color: lavender;
+    list-style: none;
+}
+
+.statsItem {
+ padding: 0;
+    margin: 0;
+    padding-bottom: 20px;
+    width: 100%;
+
+    text-align: center;
+}
+
+.statsItem:not(:last-child){
+    border-right: 2px solid lightgray;  
+}
+
+.label {
+    display: block;
+    
+    margin: 0;
+    padding: 0;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
+    font-size: 20px;
+}
+
+.quantity {
+    margin: 0;
+    padding: 0;
+    
+    font-size: 25px;
+    font-weight: 800;
+   
+    color: black; 
+}

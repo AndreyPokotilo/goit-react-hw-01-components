@@ -1,0 +1,45 @@
+.transactionHistory {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1600px;
+    background-color: rgb(111, 248, 248);
+    border: 1px solid #000;
+}
+
+.thead th{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #dbdbdb;
+    background-color: rgb(20, 31, 82);
+    border: 1px solid #000;
+}
+
+.theadItem {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.infoItem td{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 25px;
+    font-weight: 600;
+    border: 1px solid #000;
+}
+
+.invoice {
+    background-color: rgb(255, 255, 234);
+}
+
+.payment {
+    background-color: rgb(234, 238, 255);
+}
+
+.withdrawal {
+    background-color: rgb(255, 232, 232);
+}
+
+.deposit {
+    background-color: rgb(227, 255, 235);
+}
