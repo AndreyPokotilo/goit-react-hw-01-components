@@ -3,7 +3,6 @@ import { TransactionInfo } from './TransactionInfo';
 import style from './TransactionHistory.module.css';
 
 export function TransactionHistory({ items }) {
-  console.log('transactions:', items);
   return (
     <table className={style.transactionHistory}>
       <thead className={style.thead}>

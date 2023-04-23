@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
-import styles from "./StatsItem.module.css"
+import styles from './StatsItem.module.css';
 
-export function StatsItem({label, percentage}) {
+export function StatsItem({ label, percentage }) {
   return (
     <li className={styles.item}>
       <span className={styles.label}>{label}</span>
@@ -11,6 +11,6 @@ export function StatsItem({label, percentage}) {
 }
 
 StatsItem.propTypes = {
-    label: PropTypes.string.isRequired,
-    percentage: PropTypes.number.isRequired,
-  };
+  label: PropTypes.string.isRequired,
+  percentage: PropTypes.number.isRequired,
+};
